@@ -2,12 +2,12 @@ body {
   font-family: "Roboto", sans-serif;
   font-family: "Monserrat";
   background-color: #fff;
-  color: #344455;
+  color: #434455;
 }
 /**=========================LOGO==================**/
 .header-logo {
   color: #2e2f42;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
@@ -15,7 +15,7 @@ body {
   text-transform: uppercase;
 }
 .header-logo-italic {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 /**======================NAVIG==========**/
@@ -52,6 +52,7 @@ body {
   font-size: 16px;
   font-style: normal;
   letter-spacing: 0.02em;
+  line-height: 1.5;
 }
 
 .header-address-link:active {
@@ -103,7 +104,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 .punctuality {
   color: #2e2f42;
@@ -121,7 +122,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 
 .diligence {
@@ -141,7 +142,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 
 .technologies {
@@ -160,7 +161,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02;
 }
 
 /** =============================TEAM==================**/

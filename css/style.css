@@ -3,11 +3,53 @@ body {
 }
 
 .header-logo {
-  color: var(--NAVY-BLUE, #2e2f42);
-  font-family: Raleway;
+  color: 
+  font-family: "Raleway"; sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
-  letter-spacing: -0.03em;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+
+.header-navigation {
+color: var(--NAVY-BLUE, #2E2F42);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5;} 
+.header-menu-link:focus {
+  color: #404bbf;
+}
+.header-menu-link:active {
+  color: #404bbf;
+
+}
+.header-menu-link:hover {
+  color: #404bbf;
+}
+
+.header-logo {
+  color: var(--NAVY-BLUE, #2E2F42);
+
+}
+.header-logo-italic {
+  color: var(--IRIS, #4D5AE5);
+}
+.header-address {
+  color: var(--SLATE, #434455);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+letter-spacing: 0.02em;
+}
+.header-address-link:active {
+  color: #404bbf;
+}
+.header-address-link:hover {
+  color: #404bbf;
+}
+.header-address-link:focus {
+  color: #404bbf;
 }

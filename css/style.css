@@ -35,7 +35,7 @@ body {
 }
 
 .header-menu-link:focus {
-  color: #404bbf;
+  color: #2e2f42;
 }
 .header-menu-link:active {
   color: #404bbf;
@@ -49,13 +49,10 @@ body {
 }
 /**==============ADDRESS==========**/
 .address {
-  color: #2e2f42;
   font-style: normal;
 }
 .header-address {
   color: #434455;
-  font-style: normal;
-  font-family: Roboto;
   font-size: 16px;
   letter-spacing: 0.02em;
   line-height: 1.5;
@@ -75,13 +72,12 @@ body {
 }
 
 /**=====================TITLE=======================**/
-.herro {
+.hero {
   background-color: #2e2f42;
 }
 .hero-title {
   color: #fff;
   text-align: center;
-  background-color: #2e2f42;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -117,7 +113,6 @@ body {
 
 .strategy {
   color: #2e2f42;
-  font-family: Roboto;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -127,35 +122,28 @@ body {
 
 .strategy-text {
   color: #434455;
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 .punctuality {
   color: #2e2f42;
-  font-family: Roboto;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
+
 .punctuality-text {
   color: #434455;
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
 .diligence {
   color: #2e2f42;
-  font-family: Roboto;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -165,17 +153,13 @@ body {
 
 .diligence-text {
   color: #434455;
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
 .technologies {
   color: #2e2f42;
-  font-family: Roboto;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -185,28 +169,33 @@ body {
 
 .technologies-text {
   color: #434455;
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
 /** =============================TEAM==================**/
+.team {
+  background-color: #f4f4fd;
+}
 .team-logo {
   color: #2e2f42;
-  font-family: Roboto;
   font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  background-color: #f4f4fd;
   text-align: center;
 }
 
+.team-list {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  background-color: #ffffff;
+}
 .team-name {
   color: #2e2f42;
 
@@ -252,7 +241,6 @@ body {
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 0.12;
   letter-spacing: 0.02em;
   line-height: 1.2;
 }

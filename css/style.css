@@ -5,6 +5,9 @@ body {
   color: #434455;
 }
 /**=========================LOGO==================**/
+.header-logo {
+  text-decoration: none;
+}
 .header-logo-italic {
   color: #2e2f42;
 }
@@ -28,6 +31,10 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.nav-list {
+  list-style: none;
 }
 
 .list {
@@ -51,11 +58,17 @@ body {
 .address {
   font-style: normal;
 }
+
+.address-list {
+  list-style: none;
+}
+
 .header-address-link {
   color: #434455;
   font-size: 16px;
   letter-spacing: 0.02em;
   line-height: 1.5;
+  text-decoration: none;
 }
 
 .header-address-link:active {
@@ -222,6 +235,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   line-height: 1.17;
+  text-decoration: none;
 }
 .footer-logo-italic {
   color: #f4f4fd;

@@ -20,7 +20,7 @@ body {
 }
 
 /**======================NAVIG==========**/
-.header-navigation {
+.header-menu-link {
   color: #2e2f42;
   font-family: Roboto;
   font-size: 16px;
@@ -35,7 +35,7 @@ body {
 }
 
 .header-menu-link:focus {
-  color: #2e2f42;
+  color: #404bbf;
 }
 .header-menu-link:active {
   color: #404bbf;
@@ -51,7 +51,7 @@ body {
 .address {
   font-style: normal;
 }
-.header-address {
+.header-address-link {
   color: #434455;
   font-size: 16px;
   letter-spacing: 0.02em;
@@ -203,9 +203,9 @@ body {
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 0.12;
   letter-spacing: 0.02em;
   text-align: center;
+  line-height: 1.2;
   background-color: #ffffff;
 }
 
@@ -216,7 +216,6 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 0.15;
   letter-spacing: 0.02em;
   text-align: center;
   line-height: 1.5;

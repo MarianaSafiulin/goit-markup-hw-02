@@ -5,6 +5,10 @@ body {
   color: #434455;
 }
 /**=========================LOGO==================**/
+.header-logo-italic {
+  color: #2e2f42;
+}
+
 .header-logo {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -13,9 +17,6 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
-.header-logo-italic {
-  color: #2e2f42;
 }
 
 /**======================NAVIG==========**/
@@ -26,6 +27,7 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .list {
@@ -50,19 +52,22 @@ body {
   color: #434455;
   font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   letter-spacing: 0.02em;
   line-height: 1.5;
+  font-style: normal;
 }
 
 .header-address-link:active {
   color: #404bbf;
+  font-style: normal;
 }
 .header-address-link:hover {
   color: #404bbf;
+  font-style: normal;
 }
 .header-address-link:focus {
   color: #404bbf;
+  font-style: normal;
 }
 
 /**=====================TITLE=======================**/
@@ -82,8 +87,16 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  background-color: #4d5ae5;
+  background-color: #404bbf;
+  cursor: pointer;
 }
+.hero-btn:hover {
+  background-color: #404bbf;
+}
+.hero-btn:focus {
+  background-color: #404bbf;
+}
+
 /**====================ADVANT======================**/
 .advantages-title {
   background-color: #fff;
@@ -157,6 +170,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
+
 .technologies-text {
   color: #434455;
   font-family: Roboto;
@@ -164,7 +178,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
 }
 
 /** =============================TEAM==================**/
@@ -174,9 +188,11 @@ body {
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.11;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  background-color: #f4f4fd;
+  text-align: center;
 }
 
 .team-name {
@@ -188,6 +204,8 @@ body {
   font-weight: 500;
   line-height: 0.12;
   letter-spacing: 0.02em;
+  text-align: center;
+  background-color: #ffffff;
 }
 
 .team-position {
@@ -199,6 +217,8 @@ body {
   font-weight: 400;
   line-height: 0.15;
   letter-spacing: 0.02em;
+  text-align: center;
+  line-height: 1.5;
 }
 /**==============PORTFOLIO============**/
 
@@ -208,9 +228,10 @@ body {
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.11;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
 }
 
 .portfolio-name {
@@ -226,6 +247,7 @@ body {
 .portfolio-text {
   color: #434455;
   font-family: Roboto;
+  line-height: 1.5;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;

@@ -111,7 +111,7 @@ body {
   line-height: 1.2;
 }
 
-.strategy {
+.advantages-name {
   color: #2e2f42;
   font-size: 20px;
   font-style: normal;
@@ -120,54 +120,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-.strategy-text {
-  color: #434455;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-.punctuality {
-  color: #2e2f42;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
-
-.punctuality-text {
-  color: #434455;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-.diligence {
-  color: #2e2f42;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
-
-.diligence-text {
-  color: #434455;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-.technologies {
-  color: #2e2f42;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
-
-.technologies-text {
+.advantages-text {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
